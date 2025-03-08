@@ -212,6 +212,10 @@
             justify-content: center;
             align-items: center;
         }
+        .com-img{
+            height="400px";
+            width="600px";
+        }
         .p1-des{
             flex: 1;
             display: flex;
@@ -273,6 +277,69 @@
             display: flex;
             justify-content: center;
         }
+        /*media queries*/
+        @media(max-width:600px){
+            /*section1/header*/
+        .header{
+            height: 120px;
+            flex-direction: column;
+        }
+        .menu{
+            justify-content: space-evenly;
+            margin: 20px;
+        }
+        /*section2*/
+        .sec2{
+            max-height: 40rem;
+        }
+        .section2{
+            flex-direction: column;
+        }
+        .social{
+            padding-top: 70px;
+        }
+        .sec2-main-head{
+        font-size: 18px;
+        }
+        .sec2-main-des{
+        text-align: justify;
+        font-size: 14px;
+        }
+        .mainh{
+            text-align: center;
+        }
+        .button1,.button2,.button3{
+            font-size: 18px;
+            }
+        /*section3*/
+        .section3{
+            margin: 10px;
+        }
+        .know-skills{
+            gap: 30px;
+            flex-direction: column;
+        }
+        .tech-skills,.soft-skills{
+            font-size: small;
+        }
+        .get-to-know-me{
+            padding-top: 20px;
+        }
+        .p2{
+            font-size: 16px;
+        }
+        /*section4*/
+        .section4{
+            margin: 10px;
+        }
+        .project1,.project2{
+            flex-direction: column;
+            padding: 20px;
+        }
+        .com-img{
+            width: 300px;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
@@ -313,7 +380,7 @@
             </div>
             <div class="section2-aside">
                 <div class="sec2-main-head">
-                    <h1>HEY, MY NAME IS SHAIK MOHAMMED KHASIM</H1>
+                    <h1 class="mainh">HEY, MY NAME IS SHAIK MOHAMMED KHASIM</H1>
                 </div>
                 <div class="sec2-main-des">
                     <p class="p1">A highly motivated and enthusiastic graduate, I am seeking entry-level opportunities to launch my career. <br>I am a dedicated team player with strong organizational skills, and I am driven to apply my knowledge <br>and continuously learn to meet and exceed company expectations. As a quick and adaptable learner, I am eager to explore new technologies and contribute meaningfully to a team.</p>
@@ -400,7 +467,7 @@
             </div>
             <div class="project1">
                 <div class="p1-img">
-                    <img src="https://excelrfs.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" loading="lazy" height="400px" width="600px">
+                    <img class="com-img" src="https://excelrfs.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" loading="lazy">
                 </div>
                 <div class="p1-des">
                     <h2>Project-1</h2>
@@ -412,7 +479,7 @@
             </div>
             <div class="project2">
                 <div class="p1-img">
-                    <img src="https://excelrfs.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" loading="lazy" height="400px" width="600px">
+                    <img class="com-img" src="https://excelrfs.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" loading="lazy">
                 </div>
                 <div class="p1-des">
                     <h2>Project-2</h2>
